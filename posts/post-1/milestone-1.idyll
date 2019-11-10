@@ -1,119 +1,85 @@
-[meta title:"Post 1" description:"Short description of your project" /]
+[meta title:"Milestone 1" description:"Milestone 1 Results" /]
 
 [Header
   fullWidth:true
-  title:"Post 1"
-  subtitle:"Welcome to Idyll. Open index.idyll to start writing"
-  author:"Your Name Here"
-  authorLink:"https://idyll-lang.org"
-  date:`(new Date()).toDateString()`
+  title:"Milestone 1"
+  subtitle:"Concept Proposal"
+  date:"Oct. 7, 2019"
   background:"#222222"
   color:"#ffffff"
    /]
 
-## NEW STUFF
+## Scope Definition
 
-## Introduction
+For the scope of the project, our group decided to focus on how we might use ubiquitous computing to enhance the efficiency and experience of shopping at grocery stores. We plan to make the user's shopping experience more efficient by helping shoppers locate items and save time while in the store.
 
-This is an Idyll post. It is generated via
-the file `index.idyll`. To compile this post using
-idyll, run the command `idyll` inside of this directory.
+Our target audience is aimed at people who shop in-store for their households at grocery stores. This might look like many different people - single people, married couples and families alike. Their common thread is that they shop in-store versus other delivery or online options.
 
-[CustomComponent /]
+We believe based on our observations and feasibility that we should be focusing on augmenting the “in-store” versus both outside the store and inside the store which might make the scope too large.  In doing this we can save opportunities to expand outside of the store for later consideration.
 
-Idyll posts are designed to support interaction and
-data-driven graphics.
+We noticed that shoppers use containers of various sizes ( baskets or carts) to place their items in a grocery store, and we focused on conceptualizing solutions to  augment these containers (shopping cart, basket, etc.) to enhance shopping efficiency.
 
-[var name:"state" value:0 /]
-[CustomD3Component className:"d3-component" state:state /]
-[button onClick:`state++`]
-  Click Me.
-[/button]
+## Motivation and Preliminary Observation
 
-Configuration can be done via the `idyll` field in `package.json`.
+The motivation for our project is to help shoppers save time at the grocery store. Grocery shopping is also an activity that almost everyone needs to do. However, everyone doesn't own a smartphone, and we don't want that to be a barrier for using the device. We've tried focusing on concepts that don't revolve completely around a smartphone app.
 
-## Markup
+We completed four observations at different grocery stores (Kroger, Trader Joe's, Fresh Thyme, and Walmart) to see what we could learn about a typical grocery shopper's needs and behaviors. In particular, we paid attention to how shoppers moved around the store, and how they searched for the items they needed.
 
-Idyll is based on Markdown.
+#### How shoppers move in the store
 
-You can use familiar syntax
-to create **bold** (`**bold**` ) and *italic* (``*italic*` ) styles,
+* Many shoppers seem to backtrack, walk in circles, or zigzag across the store as they fill up their carts.
+* People spend lots of time standing and considering which brand/variety of something to buy, as well as prices.
+* Most shoppers didn’t actually seem to be regularly checking a list. However, some people are pushing their carts with both hands while holding their phones
+* There is a general direction of flow through the store that most people are following, see below map of commonly observed path taken at Fresh Thyme in Ypsilanti, MI
 
-* lists
-* of
-* items,
+![Heatmap](static/images/Store_Heatmap.png)
 
-```
-* lists
-* of
-* items,
-```
+#### Notes on Carriages and Baskets
 
-1. and numbered
-2. lists
-3. of items,
+* Basket holders are single, usually shopping for themselves and or aren’t with other people
+* Carriage holders
+    * Parents with children or people shopping with more than one person.
+    * Some single people are also using carriages but spend lots of their time looking at produce and buying produce items
+* People with baskets do not buy a lot of food, only about 2-10 items
+* The size of shopping carts is based on the size of the store
+* Customers use the shopping cart after checkout as well
 
+#### Information from Informal Interviews
 
-```
-1. and numbered
-2. lists
-3. of items,
-```
+* People working for Instacart and other similar services do not have a need for a product to help them navigate grocery stores. They’re experts and already know where everything in a grocery store is located.
+* Common questions asked at the register
+    * Price of items
+    * Where certain items are (especially internationa foods or considered international foods)
+    * Sales/ Copies of weekly flyer
+    * Coupon availability
+    * Bathroom Location
 
-in addition to [hyperlinks](https://idyll-lang.org) and images:
+## Ideation Process
 
-![quill](static/images/quill.svg)
+During the initial meeting, we went through all comments from the class and decided to develop the 'Shopping cart' idea among four different ideas. Based on our main concept, we discussed potential target groups and augmentable contexts. By doing this, we were able to narrow down the scope of the project and be clear about 'what we will do, and whom we do it for' as we noted in the scoping section above.
 
-```
-![quill](static/images/quill.svg)
-```
+We decided that we should observe grocery stores during the busiest time of the weekend.We observed shoppers, had casual interviews with employees and even met  a shopper from Instacart. The information we gathered allowed us to leave the stores with observations needed in order to develop more tangible ideas.
 
-## Components
+After we completed the observation at different stores; Kroger, Trader Joe's, Fresh Thyme, and Walmart, we shared what we learned from our individual observations, and shared new solution ideas with sketches we drew individually.
 
-Components can be embedded using a bracket syntax:
+Finally, we broadened our own perspectives about shoppers' needs through our collective observations and were able to discuss and sketch together the following three concepts to propose as solutions.
 
-```
-[Range /]
-```
+## Proposal of Concepts
 
-and can contain nested content:
+[Aside]
+  ##### Concept 1
+  This is an efficient navigation application that functions based on grocery list input. This would allow users to feel comfortable using their own device and enjoy the convenience of a faster, speedier checkout. The opportunities here also include collecting coupons, scanning items for faster checkout process and avoiding lines.
+[/Aside]
+![proposal1](static/images/Image_from_iOS.jpg)
 
-```
-[Equation]e = mc^{2}[/Equation]
-```
+[Aside]
+  ##### Concept 2
+  This is a voice activated grocery guide allowing people to press and get live responses from the guide AI. The software knows where all items in the store are located. We invision this button fitting comfortably on both the food basket handle and the grocery cart handle as we noted people used both containers when shopping.
+[/Aside]
+![proposal2](static/images/prop2.jpg)
 
-Components accept properties:
-
-```
-[Range value:x min:0 max:1 /]
-```
-
-that can be bound to variables to achieve interactivity (more in next section).
-
-
-A variety of components are included by default. See [all the available components](https://idyll-lang.org/docs/components/). You can also use any html tag, for example: `[div] A div! [/div]`.
-
-To create your own, add it to the `components/` folder. There are examples of how to use Idyll with React and D3 based components already included.
-
-
-
-## Interactivity
-
-Here is how you can instantiate a variable and bind it to a component:
-
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-
-```
-[var name:"exampleVar" value:5 /]
-
-[Range min:0 max:10 value:exampleVar /]
-[Display value:exampleVar /]
-```
-
-## Learn More
-
-To learn more see the documentation at https://idyll-lang.org/docs/,
-join our [chatroom](https://gitter.im/idyll-lang/Lobby), or see the project on [GitHub](https://github.com/idyll-lang/idyll).
+[Aside]
+  ##### Concept 3
+  This is a voice activated grocery guide allowing people to press and get live responses from the guide AI. The software knows where all items in the store are located. We invision this button fitting comfortably on both the food basket handle and the grocery cart handle as we noted people used both containers when shopping.
+[/Aside]
+![proposal3](static/images/prop3.jpg)
