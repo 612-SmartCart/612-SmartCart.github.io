@@ -8,3 +8,17 @@
     max-height: 200px;
   }
 }
+
+img {
+  border: 1px solid #ddd;
+  margin: 0 0 3rem 0;
+  image-orientation: from-image;
+}
+
+.idyll-stepper {
+  min-height: 800px;
+}
+
+.idyll-step-graphic img {
+  object-fit: contain;
+}
