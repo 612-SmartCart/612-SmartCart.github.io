@@ -49,11 +49,7 @@ After finishing user enactments, our group designed follow-up interview question
 
 Our group recruited five (5) participants to carry out these user enactments.
 
-| Participant | Age | Gender | Occupation         | Company/School |
-|-------------|-----|--------|--------------------|----------------|
-| P1          | 27  | Male   | PhD                | SI, Umich      |
-| P2          | 25  | Female | Research Assistant | Umich          |
-| P3          | 23  | Male   | Student            | Umich          |
+![participants](static/images/participants.png)
 
 ## Study Results
 
@@ -76,34 +72,34 @@ To analyze the results of user enactments, our group shared the notes, photos, i
 * Showing brand and price is useful when adding addition in-store.
 
 [Aside]
-  Scenario 1: the participant started to create his list before shopping and he added several items that wish to buy.
+  *Scenario 1: the participant started to create his list before shopping and he added several items that wish to buy.*
 [/Aside]
 ![scenario 1](static/images/scenario1.jpeg)
 
 [Aside]
-  Scenario 2: the participant chose to scan the QR code on the cart.
+  *Scenario 2: the participant chose to scan the QR code on the cart.*
 [/Aside]
 ![scenario 2](static/images/scan.PNG)
 
 [Aside]
-  Scenario 3 & 4: The participant used navigation to grab his items.
+  *Scenario 3 & 4: The participant used navigation to grab his items.*
 [/Aside]
 ![scenario 3 & 4](static/images/scenario3_4.jpeg)
 
 [Aside]
-  Scenario 5: the participant added their favorite hot sauce in-store.
+  *Scenario 5: the participant added their favorite hot sauce in-store.*
 [/Aside]
 ![scenario 5](static/images/item_list.PNG)
 
 After talking through different and similarity of gathered data, we started to use sticky notes to create an affinity wall to organize and keep track of each point. We found several key insights, some are shed light on our research questions and some give us a new design direction.
 
 [Aside]
-  All points and ideas from user enactments and interview questions.
+  *All points and ideas from user enactments and interview questions.*
 [/Aside]
 ![ideas](static/images/ideas.JPG)
 
 [Aside]
-  Grouping our findings together into themes to analyze study results and generate new ideas.
+  *Grouping our findings together into themes to analyze study results and generate new ideas.*
 [/Aside]
 ![ideas](static/images/affinity_wall.JPG)
 
@@ -139,7 +135,18 @@ Using this matrix as a starting point we discussed how to integrate the best ide
 We saw that many users thought that getting directions to items might be interesting or useful, but we learned that users want to remain in control of their path more than we thought. Sorting users’ lists combined with a birds-eye-view of the store seemed more valuable than getting directions to every list item.
 
 Given this, we discussed what the best sorting order for lists would be. Simply sorting nearest to farthest like some users suggested is not guaranteed to be the most optimal route through the store. We realized our list sorting should align with the findings from Milestone 2, where we saw many shoppers traversing the store around its outside edges, so that we can give a helpful route.
-<images of route drawings from white board>
+
+[Aside]
+  *Brainstorming on how to sort user lists*
+[/Aside]
+
+![sorting brainstorm](static/images/sorting_brainstorm.JPG)
+
+[Aside]
+  *Example to show the problem caused by simply sorting items nearest to farthest. That algorithm can lead to an inefficient and annoying shopping experience.*
+[/Aside]
+
+![sorting examples](static/images/sorting_examples.JPG)
 
 #### Coupon System
 Many users mentioned they would like, or expect, store coupons to be integrated into a system like this. One on hand, this is a positive aspect, because it’s an incentive for new users to use the system that they would quickly understand. On the other, we need to consider how to present coupons to users without users feeling like they are being bombarded with ads for their whole shopping trip. For now, our team decided to identify coupons with different marks on the user’s map so they can see the details of the coupon only if they’re interested.
@@ -152,16 +159,13 @@ We’re proposing an interconnected system of QR codes, Bluetooth beacons, and a
 Bluetooth beacons throughout the grocery store can work together with a beacon on a grocery cart to communicate to users where they and everything on their list is in the store. It can all be displayed for them on their smartphone.
 
 Users will have two main views: their list and the birds-eye-view of the store.
-[Aside]
-  Mockup of the birds-eye-view screen
-[/Aside]
 
-![store map](static/images/Birdseye_map.jpg)
-
-[Aside]
-  Mockup of the grocery list screen
-[/Aside]
-![list](static/images/List_View.jpg)
+[Float position:"left"]
+  ![store map](static/images/Birdseye_map.jpg)
+[/Float]
+[Float position:"right"]
+  ![list](static/images/List_View.jpg)
+[/Float]
 
 The list will be sorted in such a way as to help users navigate quickly from the entrance of the store to the checkout lines. This sorting method will closely follow the general flow shoppers already take through a particular store. Users will be able to check list items off themselves.
 
