@@ -15,6 +15,14 @@ The final proposed system consists of a sensor network that integrates with exis
 
 Our system would be sold to grocery stores chains, and we would integrate it into their existing smartphone application. This allows users to create their shopping lists in apps they’re already using. The Bluetooth sensor will help sync the user’s list with the shopping system to display items on a “Bird's-Eye view” floor plan of the store, and give navigation to items when a user asks for it. The system can speed up users’ shopping trips and improve their experience in the grocery store.
 
+![product shot 1](static/images/cart1.jpg)
+
+![product shot 2](static/images/cart2.jpg)
+
+![above gif 1](static/images/above.gif)
+
+![above gif 2](static/images/flash.gif)
+
 system architecture infographic
 
 ## Goals for the Demo
