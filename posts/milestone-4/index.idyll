@@ -11,9 +11,9 @@
 
 ## System Concept and High-level architecture
 
-The final proposed system consists of a sensor network that integrates with existing grocery store apps. Users pair their phone with the device on a shopping cart. A network of indoor positioning sensors throughout the store communicate with hardware on the cart usingiBeacon technology. The cart communicates with the users phone via Bluetooth to show where all the items are on their list.
+The final proposed system consists of a sensor network that integrates with existing grocery store apps. Users pair their phone with a Bluetooth device on a shopping cart by scanning a QR code. A network of indoor positioning sensors throughout the store communicates with hardware on the cart using iBeacon technology to calculate the user's position and the location of all their list items. The cart communicates with the user's phone via Bluetooth to show where all the items are on their list.
 
-Our system would be sold to grocery stores chains, and we would integrate it into their existing smartphone application. This allows users to create their shopping lists in apps they’re already using. The Bluetooth sensor will help sync the user’s list with the shopping system to display items on a “Bird's-Eye view” floorplan of the store, and give navigation to an item when a user asks for it. The system can speed up users’ trip and improve their experience in the grocery store.
+Our system would be sold to grocery stores chains, and we would integrate it into their existing smartphone application. This allows users to create their shopping lists in apps they’re already using. The Bluetooth sensor will help sync the user’s list with the shopping system to display items on a “Bird's-Eye view” floor plan of the store, and give navigation to items when a user asks for it. The system can speed up users’ shopping trips and improve their experience in the grocery store.
 
 system architecture infographic
 
@@ -22,7 +22,7 @@ Our **primary goal** for the demo is to show how a grocery shopping system integ
 
 Based on our previous findings and feedback, we know that users want to see where all the items on their list are in the store. They DO NOT want to be told how to walk to the next item without asking. They thought navigation towards items would be helpful, but only when they ask for it. Thus, in our demo, we created a “Bird's-Eye view” map in our shopping system to show the location of all the items and the user themselves. With such a map view, users can speed up their trip.
 
-With almost every participant we interviewed, they all mentioned one salient feature that they wish to know before going to the grocery or even during their shopping, which is the coupon and sales information. In our demo, we integrated coupons with the list so that users could see if there is any discount on their buying items, which we think might improve their joy when they really buy things.
+With almost every participant we interviewed, they all mentioned one salient feature that they wish to know during their shopping trip, which is the coupon and sales information. In our demo, we integrated coupons with the list so that users could see if there is any discount on their buying items, which we think might improve their joy when they really buy things.
 
 ## Demo
 
@@ -66,17 +66,17 @@ Grocery Store
 
 ### Key Points
 
-Our Prototype is comprised of an interactive Invision prototype to act as the smartphone app, a smart cart with electronics, and physical products and props to simulate a grocery store.
+Our Prototype is comprised of an interactive Invision prototype to act as the smartphone app, a smart cart with electronics, and physical products and props to simulate a grocery store (grocery cart and foam board shelves). The Invision prototype will be projected onto a monitor so others can see what the user sees on their phone during their shopping trip.
 
 ### Preparation
 
-Our group went through high-level scripts and talked about the needed details of the prototype screen, and figured out how the map display would change as the users’ orientation change as well.
+Our group went through high-level scripts and talked about the needed details of the prototype screen, and figured out how the map display would change as the users’ orientation change as well. We picked out exactly where users will need to walk during each step of the demo, and exactly which screens our Invision prototype would require.
 
 ![whiteboard](static/images/image1.jpeg)
 
 ### User Interface Screen
 
-Based on our previous work of storyboard and concepts,  we created a mockup to help improve users interact with our product. The basic interactions within are creating a list, viewing the store floor plan, and coupon notification and integration.
+Based on our previous work of storyboard and concepts,  we created a mockup to help improve users interaction with our product. The basic interactions within are creating a list, viewing the store floor plan, and coupon notification and integration.
 
 ![list view](static/images/image2.png)
 ![map view](static/images/image3.png)
@@ -90,7 +90,7 @@ For the electronics, we put all components in a box on the shopping cart and wro
 
 ### Mini Grocery Store
 
-We used foam board to create two small shelves to simulate a mini grocery store. And also made price tag, sale tag and sign of aisles.
+We used foam board to create two small shelves to simulate a mini grocery store. We also made price tags, sale tags, and signs for the aisles.
 
 ![grocery store props](static/images/image6.jpeg)
 
