@@ -23,7 +23,7 @@ Our system would be sold to grocery stores chains, and we would integrate it int
 
 ![above gif 2](static/images/flash.gif)
 
-system architecture infographic
+![architecture](static/images/architecture.png)
 
 ## Goals for the Demo
 Our **primary goal** for the demo is to show how a grocery shopping system integrated with the phone can help users improve their shopping efficiency and experience. In our demo, we try to replicate the experience of using a smartphone app to create a list, syncing with a smart shopping cart, following a responsive “Bird's-Eye view” map and navigation line to find items, displaying real-time coupon and sale information, and finishing shopping with less time and more enjoyment.
