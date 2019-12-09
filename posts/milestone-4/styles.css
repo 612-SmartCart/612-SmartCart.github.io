@@ -1,0 +1,16 @@
+.d3-component svg {
+  background: #ddd;
+  max-height: 300px;
+}
+
+@media all and (max-width: 1000px) {
+  .d3-component svg {
+    max-height: 200px;
+  }
+}
+
+img {
+  border: 1px solid #ddd;
+  margin: 0 0 3rem 0;
+  image-orientation: from-image;
+}
