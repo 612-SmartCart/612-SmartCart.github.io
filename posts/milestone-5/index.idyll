@@ -18,7 +18,7 @@ MapMe can integrate with any grocery store smartphone app, and users could have 
 [/Aside]
 ![product shot 1](static/images/intro1.jpg)
 
-### Motivation
+## Motivation
 
 Most people have probably had shopping trips that looked and felt like this:
 ![annoying map path](static/images/messy_route.jpg)
@@ -27,7 +27,7 @@ We observed that shoppers are usually **crisscrossing grocery stores while shopp
 
 A recent Gallup Poll shows that 82% of US adults go grocery shopping in a grocery store at least once a week (Jones, 2019). Through our research and interviews during our design process, we also found that relatively **everyone wants to see coupons and sales information while they shop.** When all these ideas present, it was an excellent opportunity for us to find a better solution to help improve grocery shopping efficiency.
 
-### Formative Study and Results
+## Formative Study and Results
 
 To better understand our possible design solution and narrow down our target audience, we used the following methods and timeline to realize the design of our product.
 
@@ -35,11 +35,11 @@ To better understand our possible design solution and narrow down our target aud
 
 Our group engaged in an iterative design process to explore various concepts by utilizing different research methods, such as a culture probe and user enactments, before generating our final physical prototype. Below are the fundamental processes and results in our design.
 
-#### Observations
+### Observations
 
-The most important finding in our observation was that many shoppers seem to backtrack, walk in circles, or zigzag across the store as they fill up their carts, which is not very efficient. This helped validate our initial motivations for the design. For more details of our observation, see Milestone 1.
+The most important finding in our observation was that many shoppers seem to backtrack, walk in circles, or zigzag across the store as they fill up their carts, which is not very efficient. This helped validate our initial motivations for the design. For more details of our observation, see [a href:"https://612-smartcart.github.io/post-1/index.html"]Milestone 1[/a].
 
-#### Cultural Probe
+### Cultural Probe
 
 ![cultural probe](static/images/culture_probe.png)
 
@@ -48,9 +48,9 @@ We created a cultural probe to better understand participants’ experience in t
 * Participants were not worried about finding something because they usually visit same grocery store and also comfortable asking for directions if they can’t find something.
 * Participants would like to know if something they want to buy is out of stock.
 
-These results helped to better define our target audience and shift the direction of our design. Rather than a turn-by-turn GPS-like system, we’re focusing on showing shoppers where items on their list are as they move through stores. For more details of our cultural probe, see Milestone 2.
+These results helped to better define our target audience and shift the direction of our design. Rather than a turn-by-turn GPS-like system, we’re focusing on showing shoppers where items on their list are as they move through stores. For more details of our cultural probe, see [a href:"https://612-smartcart.github.io/milestone-2/index.html"]Milestone 2[/a].
 
-#### User Enactments
+### User Enactments
 
 ![user enactments](static/images/user_enactment.png)
 
@@ -61,9 +61,9 @@ Based on the results of user enactments and notes we collected from the follow-u
 * Participants prefer the simplistic birds-eye view of the store with markers for list items, rather than turn-by-turn navigation to each item, and a search bar/item look-up with the phone as an interface.
 * Participants were eager to see a coupon system integrated with application list that offers personalized discounts when at the store.
 
-At this point, we have refined our design down to a specific system based on what we learned from our user enactments and previous milestones. We also identified the user’s interaction methods with the system and how it will fit into our audience’s grocery shopping routine. For more details of our user enactments, see Milestone 3.
+At this point, we have refined our design down to a specific system based on what we learned from our user enactments and previous milestones. We also identified the user’s interaction methods with the system and how it will fit into our audience’s grocery shopping routine. For more details of our user enactments, see [a href:"https://612-smartcart.github.io/milestone-3/index.html"]Milestone 3[/a].
 
-### Experience Prototype and Results
+## Experience Prototype and Results
 
 Our prototype is comprised of an interactive Invision prototype to act as the smartphone application, a smart cart with electronics, and physical products and props to simulate a grocery store.
 
@@ -75,9 +75,9 @@ For the user interface screen, we created a mockup to help improve users’ inte
 
 After we conducted the demo with these prototypes, our classmates were mostly concerned about privacy, which is a common issue that almost every application faces. How to protect users’ information and gain users’ trust is essential for every product, and is something this design needs to consider closely.
 
-### Final System Concept
+## Final System Concept
 
-#### Key Features
+### Key Features
 
 ![Features](static/images/key_feature.png)
 
@@ -87,7 +87,7 @@ After we conducted the demo with these prototypes, our classmates were mostly co
 * Coupon Integration: MapMe will automatically integrate coupons with the list so that users could see if there is any discount on the items they’re buying.
 * Navigation: MapMe will give users navigation lines towards items, but only when users ask for it.
 
-#### Demonstration Video
+### Demonstration Video
 
 [Youtube
   id:"eHc_DfQ_DlY"
@@ -95,7 +95,7 @@ After we conducted the demo with these prototypes, our classmates were mostly co
   height:338
 /]
 
-#### Ideal System Proposal
+### Ideal System Proposal
 
 ![System Architecture](static/images/architecture.png)
 
@@ -103,7 +103,7 @@ The final proposed system consists of a sensor network that integrates with exis
 
 This product would be sold to grocery store chains, Meijer in the example above, rather than exist as a standalone app for users to download. We would work with them to integrate our location-finding technology into their existing smartphone app, implement our sensor networks throughout their stores, and map their floor plans.
 
-### Reflection
+## Reflection
 
 We learned a lot about how people shop for items in grocery stores during this design process. We feel like we incorporated well what our research taught us, but there are certainly limitations to this design and areas that could be improved or further explored.
 
