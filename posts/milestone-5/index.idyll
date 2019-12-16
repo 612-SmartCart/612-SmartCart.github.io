@@ -25,7 +25,7 @@ Most people have probably had shopping trips that looked and felt like this:
 
 We observed that shoppers are usually **crisscrossing grocery stores while shopping.** The reason, of course, is because they have **difficulty finding every last item** or forgetting to pick up items along their way. If shoppers are not familiar with the grocery store, it will take much more time to find items.
 
-A recent Gallup Poll shows that 83% of US adults go grocery shopping in a grocery store at least once a week (Jones, 2019). Through our research and interviews during our design process, we also found that relatively **everyone wants to see coupons and sales information while they shop.** When all these ideas present, it was an excellent opportunity for us to find a better solution to help improve grocery shopping efficiency.
+A recent Gallup Poll shows that 82% of US adults go grocery shopping in a grocery store at least once a week (Jones, 2019). Through our research and interviews during our design process, we also found that relatively **everyone wants to see coupons and sales information while they shop.** When all these ideas present, it was an excellent opportunity for us to find a better solution to help improve grocery shopping efficiency.
 
 ### Formative Study and Results
 
@@ -79,9 +79,29 @@ After we conducted the demo with these prototypes, our classmates were mostly co
 
 #### Key Features
 
+![Features](static/images/key_feature.png)
+
+* List Creation: MapMe allows users to create or add to a shopping list at any time.
+* QR Code: MapMe lets users scan a QR code to pair their phone with a smart shopping cart which has a Bluetooth sensor in it.
+* “Bird’s-Eye” view: after syncing with the cart, the users’ phone interface will show the location of all the items that users added in their list as well as the user themselves.
+* Coupon Integration: MapMe will automatically integrate coupons with the list so that users could see if there is any discount on the items they’re buying.
+* Navigation: MapMe will give users navigation lines towards items, but only when users ask for it.
+
 #### Demonstration Video
 
+[Youtube
+  id:"eHc_DfQ_DlY"
+  width:600
+  height:338
+/]
+
 #### Ideal System Proposal
+
+![System Architecture](static/images/architecture.png)
+
+The final proposed system consists of a sensor network that integrates with existing grocery store smartphone applications. Users pair their phone with a shopping cart by scanning the unique QR code on the cart, which establishes a Bluetooth connection. A network of indoor positioning sensors throughout the store will communicate with the hardware on cart with iBeacon technology. The cart communicates with the users phone via Bluetooth to show their location and where all the items are on their list on a bird’s-eye-view floor plan of the store.
+
+This product would be sold to grocery store chains, Meijer in the example above, rather than exist as a standalone app for users to download. We would work with them to integrate our location-finding technology into their existing smartphone app, implement our sensor networks throughout their stores, and map their floor plans.
 
 ### Reflection
 
